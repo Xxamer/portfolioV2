@@ -4,7 +4,7 @@
             <CyberpunkHeader title="Callate por favor me esta dando un pabajo" />
         </div>
         <div v-else>
-            Modo Synthwave
+            Modo synthwawe, aqui no hay nada
         </div>
     </main>
 </template>
@@ -17,7 +17,7 @@ const hasBeen:cyberpunk = { cyberpunked: ref(true) };
 let { cyberpunked } = hasBeen; // ✅ name es reactivo
 
 onMounted(() => {
-    const probabilidadTrue = 1.00;
+    const probabilidadTrue = 0.01;
     const random = Math.random();
     hasBeen.cyberpunked.value = random <= probabilidadTrue ? true : false;
 })
