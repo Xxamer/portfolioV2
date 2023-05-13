@@ -304,7 +304,7 @@ body{
     background: var(--shadow-primary);
     text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
     clip-path: var(--clip);
-    animation: glitch 2s infinite;
+    animation: glitch2 2s infinite;
     display: none;
   }
   .cybr-btn:hover .cybr-btn__glitch {
@@ -321,7 +321,7 @@ body{
     background: var(--primary);
     z-index: -1;
   }
-  @keyframes glitch {
+  @keyframes glitch2 {
     0% {
       clip-path: var(--clip-one);
     }
