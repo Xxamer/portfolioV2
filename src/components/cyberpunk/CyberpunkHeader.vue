@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section class="cyberheader">
   <div class="hero-container">
     <div class="environment"></div>
     <h2 class="hero glitch layers" data-text="Christian"><span>CHRIS</span></h2> <br/>
