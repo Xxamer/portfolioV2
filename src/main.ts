@@ -1,5 +1,6 @@
-import './assets/main.css'
+import './assets/base.scss'
 import './assets/cybertitle.scss'
+import './assets/cyberbuttons.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

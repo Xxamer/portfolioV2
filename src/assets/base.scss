@@ -1,0 +1,29 @@
+.cyberbody{
+    background-color: #E8E100;
+    min-height: 500px;
+}
+.cybercontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .cybercontainer {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .cybercontainer {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .cybercontainer {
+      width: 1170px;
+    }
+  }
+
+.pt-3{
+    padding-top: 30px;
+}
