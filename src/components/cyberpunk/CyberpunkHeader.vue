@@ -1,17 +1,11 @@
 <template>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron&display=swap">
-    <div class="cyberheader">
-        <div  style="color:white" class="">
-               <img class="profile-img glitch" src="https://avatars.githubusercontent.com/u/36738325?v=4" alt="">
-            </div>
-        <div class="container">
-           
-            <div class="glitch-mobile " data-text="CHRISTIAN GRANADO">CHRISTIAN GRANADO</div>
-            <div class="glow">CHRISTIAN GRANADO</div>
-            <p class="subtitle">CYBER DEVELOPER</p>
-        </div>
-        <div class="scanlines"></div>
-    </div>
+   <section>
+  <div class="hero-container">
+    <div class="environment"></div>
+    <h2 class="hero glitch layers" data-text="Christian"><span>CHRIS</span></h2> <br/>
+    <h5 class="hero glitch layers" data-text="Christian"><span>FullStack Developer</span></h5>
+  </div>
+</section>
 </template>
 
 <script setup lang="ts">

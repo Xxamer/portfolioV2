@@ -1,11 +1,15 @@
 <template>
+    <div class="tl-body">
     <ul class="timeline">
         <li class="tl-item" v-for="(tl, index) in timeline" :style="tl.color" :key="index">
             <div class="date">{{ tl.date }}</div>
+            <div style="background-color:white">
             <div class="title">{{ tl.title }}</div>
             <div class="descr">{{ tl.body }}</div>
+        </div>
         </li>
     </ul>
+</div>
 </template>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
@@ -17,9 +21,8 @@
     box-sizing: border-box;
 }
 
-body {
+.tl-body {
     --color: rgba(30, 30, 30);
-    --bgColor: rgba(245, 245, 245);
     display: grid;
     align-content: center;
     gap: 2rem;
